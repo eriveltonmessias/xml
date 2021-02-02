@@ -11,7 +11,7 @@ public class start {
 		
 	try {
 		WssmsSoapStub soap = new WssmsSoapStub();
-		String resposta = soap.envios(01, "smsbahia", "lkekfe", "{}");
+		String resposta = soap.envios(01, "smsbahia", "[SENHA]", "{}");
 		
 		System.out.println(resposta);
 		
